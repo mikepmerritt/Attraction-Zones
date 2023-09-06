@@ -1081,8 +1081,8 @@ GameObject:
   - component: {fileID: 1960760037}
   - component: {fileID: 1960760036}
   - component: {fileID: 1960760039}
-  - component: {fileID: 1960760040}
   - component: {fileID: 1960760041}
+  - component: {fileID: 1960760040}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1215,6 +1215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpeed: {fileID: 11400000, guid: 0a216cb71d4d6e548a82f677fab588de, type: 2}
+  rb: {fileID: 0}
 --- !u!50 &1960760041
 Rigidbody2D:
   serializedVersion: 4
